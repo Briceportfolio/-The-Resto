@@ -732,6 +732,7 @@ nav .logo1 :hover {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  text-align: center;
 }
 @media screen and (max-width: 800px) {
   .section3 .booking-container .part-right .part-right-container {
@@ -799,7 +800,7 @@ nav .logo1 :hover {
 }
 @media screen and (max-width: 800px) {
   .section3 .booking-container .part-right .part-right-container .input-container input {
-    width: 200px;
+    width: 170px;
     margin: 20px auto;
   }
 }
@@ -812,7 +813,7 @@ nav .logo1 :hover {
 }
 @media screen and (max-width: 800px) {
   .section3 .booking-container .part-right .part-right-container .input-container select {
-    width: 200px;
+    width: 170px;
   }
 }
 .section3 .booking-container .part-right .part-right-container input[type=submit] {
@@ -1083,7 +1084,7 @@ nav .logo1 :hover {
 
 .section5 {
   position: relative;
-  height: 100vh;
+  padding: 70px 0 230px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1093,16 +1094,20 @@ nav .logo1 :hover {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background: url(../img/gmap.jpg);
-  background-repeat: no-repeat;
-  background-size: 100% 50%;
-  background-position: center bottom;
+}
+.section5::after {
+  content: "";
+  height: 350px;
+  width: 100%;
+  position: absolute;
+  background: url(../img/gmap.jpg) center/cover;
+  left: 0;
+  bottom: 0;
+  z-index: -1;
 }
 @media screen and (max-width: 800px) {
-  .section5 {
-    width: 100%;
-    margin: auto;
-    background-position: bottom;
+  .section5::after {
+    top: 47%;
   }
 }
 .section5 #girlpic {
@@ -1110,7 +1115,7 @@ nav .logo1 :hover {
   border-radius: 60px;
   height: 60px;
   width: 60px;
-  top: 26%;
+  top: 6%;
   left: 50%;
   -webkit-transform: translateY(-50% -50%);
           transform: translateY(-50% -50%);
@@ -1144,10 +1149,9 @@ nav .logo1 :hover {
 @media screen and (max-width: 800px) {
   .section5 .section5-container {
     width: 90%;
-    height: 65%;
-    margin-bottom: 170px;
+    height: 80%;
     display: inline block;
-    padding: 0;
+    padding: 10px;
   }
 }
 .section5 .section5-container p {
@@ -1176,6 +1180,7 @@ footer {
     width: 100%;
     display: inline block;
     background: rgb(33, 32, 30);
+    height: 200px;
   }
 }
 footer .part-left {

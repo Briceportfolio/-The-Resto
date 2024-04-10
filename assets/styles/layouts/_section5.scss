@@ -1,19 +1,23 @@
 .section5 {
     position: relative;
-    height: 100vh;
+    padding:70px 0 230px;
     display: flex;
     justify-content: center;
     align-items: center;
-    background:url(../img/gmap.jpg);
-    background-repeat: no-repeat; 
-    background-size:100%  50%;
-    background-position: center bottom; 
-    @media screen and (max-width: 800px) {
-        width:100%;
-        margin:  auto;
-        background-position: bottom;
+    &::after {
+        content:"";
+        height: 350px;
+        width: 100%;
+        position: absolute;
+        background: url(../img/gmap.jpg) center/cover;
+        left:0;
+        bottom: 0;
+        z-index: -1;
+        @media screen and (max-width: 800px) {
+            top:47%;
         
-    }
+            
+    }}
 
  
 
@@ -22,7 +26,7 @@
         border-radius: 60px;
         height: 60px;
         width: 60px;
-        top:26%;
+        top:6%;
         left:50%;
         transform: translateY(-50% -50%);
         z-index: 1;
@@ -47,10 +51,9 @@
         padding: 40px 60px;
         @media screen and (max-width: 800px) {
             width:90%;
-            height: 65%;
-            margin-bottom: 170px;
-            display:inline block;
-           padding: 0;
+            height: 80%;
+             display:inline block;
+           padding: 10px;
            
 
         }
