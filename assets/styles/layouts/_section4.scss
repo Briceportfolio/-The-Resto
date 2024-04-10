@@ -1,0 +1,200 @@
+.section4 {
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    @media screen and (max-width: 804px) {
+       display: none ;
+       
+       
+
+    }
+    h2{
+        font-size: 3rem;
+        line-height: 35px;
+    }
+    h1 {
+        color: $white2;
+        font-size: 2.4rem;
+        letter-spacing: 2px;
+    }
+    img {
+        margin: 40px auto;
+        animation: rotate 2s linear infinite;
+    }
+
+    @keyframes rotate {
+        from{
+            transform: rotateY(0deg);
+        }
+        to {
+            transform: rotateY(360deg);
+        }}
+    .event-container{
+        
+        width: 70%;
+        max-height: 40%;
+        display: grid;
+        grid-template-columns: 50% 50%;
+        gap: 10px;
+      
+        .event-container-left{
+            height:97%;
+            display: grid;
+            grid-template-rows: 50% 50%;
+            gap: 10px;
+       .part-1 {
+            display: grid;
+            grid-template-columns: 38% 62%;
+            .part-left{
+             background: url(../img/event-01.jpg) center/cover;
+             display: flex;
+             justify-content: center;
+             align-items: center;
+
+                span {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    text-align: center;
+                    font-size: 1.9rem;
+                    color: $white2;
+                    background: $blackbg;
+                    height:38%;
+                    width: 45%;
+                    
+                }
+                
+
+                }
+
+            }
+            .part-right{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                background: $white2;
+                padding: 10px;
+                h3{text-align: center;
+                    font-size: 1.8rem;
+                    font-weight: 200;
+                    padding: 30px 0;
+                }
+                p{margin-bottom:20px;
+                 font-weight: 100;
+                 text-align: center;
+                }
+                i {
+                    color: rgb(159, 154, 154);
+                    
+                }
+                h4 {
+                    margin-bottom: 20px;
+                }
+            }
+
+        
+        .part-2{
+            display: grid;
+            grid-template-columns: 38% 62%;
+            .part-left{
+                background: url(../img/event-02.jpg) center/cover;
+                display: flex;
+             justify-content: center;
+             align-items: center;
+                span {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    text-align: center;
+                    font-size: 1.9rem;
+                    color: $white2;
+                    background: $blackbg;
+                    height:38%;
+                    width: 45%;
+                    
+                }
+              
+                }
+        }
+        .part-right{
+            background: $white2;
+            h3{text-align: center;
+                font-size: 1.8rem;
+                font-weight: 200;
+                padding: 30px 0;
+            }
+            p{margin-bottom:40px;
+             font-weight: 100;
+             letter-spacing: 1px;
+            }
+            i {
+                color: rgb(159, 154, 154);
+                margin:0 3px;
+            }
+        } }
+    
+
+        .part-3{
+            width: 98%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding:20px;
+            .part3-container{
+                padding: 10px;
+                position: relative;
+                height: 100%;
+                width: 100%;
+                background:$white2;
+                display: flex;
+             justify-content: center;
+             align-items: center;
+             flex-direction: column;
+             span {
+                position: absolute;
+                top:0;
+                padding-top: 7px;
+                text-align: center;
+                font-size: 1.9rem;
+                color: $white2;
+                background: $blackbg;
+                height:19%;
+                width: 19%;
+                z-index: 1;
+                
+            }
+            h3{text-align: center;
+                font-size: 1.8rem;
+                font-weight: 200;
+                padding: 30px 0;
+            }
+            p{margin-bottom:40px;
+             font-weight: 100;
+             letter-spacing: 1px;
+            }
+            i {
+                color: rgb(159, 154, 154);
+                margin:0 3px;
+            }
+            h4{ display: block;
+                margin-top: 40px;
+            }
+
+
+            }
+          
+            
+            background: url(../img/event-03.jpg) center/cover ;
+          
+
+        }
+
+
+
+
+    }
+
+}

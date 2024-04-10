@@ -1,0 +1,60 @@
+@font-face {
+    font-family:"Allura-reg" ;
+    src: url(../font/Allura-Regular.ttf);
+}
+@font-face {
+    font-family:"Poppins-med" ;
+    src: url(../font/Poppins-Medium.ttf);
+}
+@font-face {
+    font-family:"Roboto-light" ;
+    src: url(../font/RobotoMono-VariableFont_wght.ttf);
+}
+
+$FH2 : "Allura-reg";
+$FH1 : "Poppins-med";
+$FP : "Roboto-light";
+
+
+$blackbg : rgb(33,32,30);
+$white2 : rgb(238,238,238);
+$coffee : rgb(166,114,69);
+$greyunderline : rgb(89,89,86);
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+
+}
+body{
+    height: 100vh;
+    background: $blackbg;
+}
+
+li {
+    list-style: none;
+}
+a, a:visited{
+    color: $white2;
+    text-decoration: none;
+}
+h2{
+    font-family: $FH2;
+    color: $coffee;
+    font-weight: 200;
+    font-size: 2rem;
+
+}
+
+h1{ font-family: $FH1;
+    color:black;
+}
+
+p {font-family: $FP;
+    font-size: 0.9rem;
+    font-weight:300 ;}
+
+

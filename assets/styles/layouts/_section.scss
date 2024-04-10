@@ -1,0 +1,115 @@
+.Russel{
+   height: 55vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background: $white2;
+    @media screen and (max-width: 500px) {
+        width: 100%;
+        height: 50%;
+        font-size: 0.7rem;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+      
+
+    }
+    
+
+    & .part-left{
+      
+        display: flex;
+        justify-content: center;
+        align-items: center; 
+       .part-left-container {
+        height:95%;
+        width:95%;
+       border: 1px dashed $coffee;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        @media screen and (max-width: 500px) {
+            height: 100%;
+            line-height: 18px;
+        }
+
+    
+        
+      
+        h2{
+            font-size: 2rem;
+            line-height: 15px;
+            @media screen and (max-width: 500px) {
+               margin-top: 10px;
+               
+            }
+            
+            
+        }
+        h1 {font-size: 1.2rem;
+
+        }
+        img {
+        
+            margin:20px auto;
+            animation: scale 0.8s linear infinite;
+            transition:0.3s;
+
+        }
+        @keyframes scale {
+            from{
+               transform: scale(1);
+            }
+            to {
+               transform:scale(1.1);
+            }}
+
+
+        p {
+            
+            margin: 10px 20px;
+            text-align: center;
+        }
+
+
+.russel-avatar {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+           
+            img{
+            height: 80px;
+            width: 80px;
+            border-radius: 50px;}
+            h3 {
+                font-size: 1rem;
+                letter-spacing: 1px;
+                font-weight: 600; }
+
+            h4 {
+                font-weight: 100;
+                font-size: 0.7rem;
+                color: rgb(180, 178, 178);
+
+            }    
+
+           
+        }
+            
+      }   
+
+}
+        
+    
+     .part-right img{
+        object-fit: cover;
+        height: 55vh;
+        width:100%;
+        @media screen and (max-width: 500px) {
+            display: none;
+
+        }
+}
+}
