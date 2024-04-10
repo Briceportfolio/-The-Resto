@@ -33,19 +33,19 @@ a, a:visited {
 }
 
 h2 {
-  font-family: "Allura-reg";
+  font-family: Allura-reg, cursive;
   color: rgb(166, 114, 69);
   font-weight: 200;
   font-size: 2rem;
 }
 
 h1 {
-  font-family: "Poppins-med";
+  font-family: Poppins-med, serif;
   color: black;
 }
 
 p {
-  font-family: "Roboto-light";
+  font-family: Roboto-ligh, serif;
   font-size: 0.9rem;
   font-weight: 300;
 }
@@ -296,7 +296,7 @@ nav .logo1 :hover {
   }
 }
 .section2 .part-1 nav ul {
-  font-family: "Roboto-light";
+  font-family: Roboto-ligh, serif;
   width: 80%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1160,7 +1160,7 @@ nav .logo1 :hover {
   font-weight: 100;
 }
 .section5 .section5-container h2 {
-  font-family: "Roboto-light";
+  font-family: Roboto-ligh, serif;
   font-size: 1rem;
 }
 
@@ -1234,7 +1234,7 @@ footer .part-right {
 footer .part-right label {
   font-size: 1rem;
   padding: 10px 0;
-  font-family: "Poppins-med";
+  font-family: Poppins-med, serif;
 }
 @media screen and (max-width: 500px) {
   footer .part-right label {
