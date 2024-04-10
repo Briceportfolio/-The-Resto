@@ -1160,6 +1160,9 @@ nav .logo1 :hover {
   line-height: 30px;
   margin-bottom: 30px;
 }
+.section5 .section5-container p i {
+  font-size: 0.6rem;
+}
 .section5 .section5-container h1 {
   font-weight: 100;
 }
